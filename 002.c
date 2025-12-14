@@ -65,6 +65,7 @@ int main(){
  p=(int*)realloc(p,5*sizeof(int));
  p[3]=56 ;
  p[2]=34 ;
+ p[3]=33 ;
  for(int i=0 ;i<5 ;i++){
     printf("the value at index %d is : %d \n" , i , p[i]) ;
  }
